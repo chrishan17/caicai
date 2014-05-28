@@ -1,0 +1,4 @@
+default: &default
+  appid: "gh_8d3ca975ceda"
+  secret: "hxl28933573"
+  token: "caicaiwxt"
