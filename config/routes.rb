@@ -1,5 +1,5 @@
 Caicai::Application.routes.draw do
-  resources :weixin
+  resource :weixin
   resources :products
   resources :categories do
     member do
