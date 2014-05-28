@@ -1,4 +1,5 @@
 Caicai::Application.routes.draw do
+  mount WeixinRailsMiddleware::Engine, at: "/"
   resources :products
   resources :categories do
     member do
