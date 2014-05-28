@@ -7,6 +7,7 @@ gem 'rails', '4.0.3'
 gem 'weixin_rails_middleware'
 gem 'paperclip'
 gem "wechat-rails", git:"https://github.com/skinnyworm/wechat-rails"
+gem 'actionpack-xml_parser'
 
 # Use sqlite3 as the database for Active Record
 group :development do
