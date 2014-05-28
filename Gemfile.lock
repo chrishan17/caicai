@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/skinnyworm/wechat-rails
+  revision: c5758363616979bdb07af68f4ddfdb755ab89a1a
+  specs:
+    wechat-rails (0.1.1)
+      nokogiri (>= 1.6.0)
+      rails (>= 3.2.14)
+      rest-client
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -90,6 +99,8 @@ GEM
     rake (10.3.2)
     rdoc (4.1.1)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     roxml (3.3.1)
       activesupport (>= 2.3.0)
       nokogiri (>= 1.3.3)
@@ -147,4 +158,5 @@ DEPENDENCIES
   sqlite3
   turbolinks
   uglifier (>= 1.3.0)
+  wechat-rails!
   weixin_rails_middleware

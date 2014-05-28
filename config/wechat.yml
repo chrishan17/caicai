@@ -1,0 +1,5 @@
+default: &default
+  appid: "wx555b5022e7ce7cd0"
+  secret: "81f42087bb0cf20de841d0e3e411f6fc"
+  token:  "caicaiwxt"
+  access_token: "/var/tmp/wechat_access_token"
