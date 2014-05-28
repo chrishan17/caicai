@@ -1,0 +1,12 @@
+<div>
+  <%= image_tag(@product.photo.url(:normal)) %>
+</div>
+<div>
+  <p><%= @product.name %></p>
+  <p>￥<%= @product.price %></p>
+</div>
+<div>
+  <%= @product.description %>
+</div>
+
+

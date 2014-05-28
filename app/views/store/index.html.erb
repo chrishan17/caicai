@@ -1,0 +1,5 @@
+<% @categories.each do |category| %>
+  <div>
+    <%= button_to "#{category.name}", products_category_path(category), method: :get %>
+  </div>
+<% end %>
